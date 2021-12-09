@@ -1,37 +1,47 @@
 ---
-title: "Changing data"
+title: "Dataset leakage"
 teaching: 0
 exercises: 0
 questions:
-- "What are data leakage and data shift?"
+- "What is dataset leakage?"
 objectives:
-- "Understand how leakage and shift lead to poor models."
+- "Understand how leakage can lead to over-optimistic expectations of performance."
 keypoints:
-- "Leakage and shift lead to poorly performing models."
+- "Leakage occurs when training data is contaminated with information that is not available at prediction time."
 ---
 
-## Changing data
+## Dataset leakage
 
-In most cases where we seek to deploy machine learning models, data is being generated continuously over time. In transactional systems, data points may be updated and changed.
+Dataset leakage is the mistaken use of information in the model training process that in reality would not be available at prediction time. The result of data leakage is overly optimistic expectations and poor performance in out-of-sample datasets.
 
-When training machine learning models, we typically work with snapshots of data: static spreadsheets of predictors and outcomes that obscure temporality.
+An extreme example of data leakage would be accidentally including a prediction target in a training dataset. In this case our model would perform very well on training data. The model would fail, however, when moved to a real-life setting where the outcome was not available at prediction time.
 
-## Data leakage
+![Dataset leakage](../fig/placeholder.png){: width="600px"}
 
-Leakage happens when training data is contaminated with information that should not be available to our model. An extreme example would be including a prediction target in the training data. In reality leakage is usually much harder to spot.
+In most cases information leakage is much more subtle than including the outcome in the training data, and it may occur at many stages during the model training process. 
 
-https://www.jmir.org/2021/2/e10969
+## Imputation prior to train-test split
 
-Examples, and discussion.
+One common practice that leads to data leakage is choosing to impute missing values *prior* to creating train and test splits. The result - while minor - is likely to be overestimated performance on the test set. A similar issue may occur if scaling a dataset prior to creating the train and test splits.
 
-## Data shift
+```python
+# TODO: demonstrate effect of filling missing data prior to splitting.
+```
 
-Dataset shift describes the issue of data changing after a model is deployed. It is not enough to train a model and then let it be. After deployment, models need to be audited and adapted.
+## Non-independence across train-test split
 
-https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/60fb3ba110343004004f24ba/1627077538209/Performance_Gap___Prospective_Validation.pdf
+Another issue that can lead to data leakage is to not account for grouping within a dataset when creating train-test splits. Let's say, for example, that we are trying to use chest x-rays to predict which patients have cardiac disease. If the same patient appears multiple times within our dataset and this patient appears in both our training and test set, this may be cause for concern.
 
-https://proceedings.neurips.cc/paper/2019/file/846c260d715e5b854ffad5f70a516c88-Paper.pdf
+![Dataset leakage](../fig/x-ray-split.png){: width="600px"}
 
-Examples, and discussion.
+## Accessing future information
+
+Another common cause of leakage is to mistakenly use information from the future when making a prediction. This is especially easy to do when working with retrospective data archived in relational databases, where the temporal aspects of data may be unclear. 
+
+In [Data Leakage in Health Outcomes Prediction With Machine Learning](https://www.jmir.org/2021/2/e10969/PDF) Chiavegatto Filho et al reflect [on a study](https://www.jmir.org/2018/1/e22/PDF) that describes a machine learning model for prediction of hypertension in patients using electronic health record data.
+
+<!--  
+Task: read section X and answer questions.
+-->
 
 {% include links.md %}
