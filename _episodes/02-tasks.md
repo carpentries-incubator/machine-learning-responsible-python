@@ -14,7 +14,7 @@ keypoints:
 
 Machine learning is a rapidly advancing, powerful technology that is helping to drive innovation. Before embarking on a machine learning project, consider the task carefully. Many machine learning efforts are not solving problems that need to be solved. Worse, many applications of machine learning are not for the public good. 
 
-The NIH Guiding Principles for Ethical Research provide a good starting point for any project (https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research). A slightly modified version of these principles is outlined below:
+The [NIH Guiding Principles for Ethical Research](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) provide a good starting point for any project. A slightly modified version of these principles is outlined below:
 
 - Social and clinical value: Does the social or clinical value of developing and implementing the model outweigh the risk and burden of the people involved?
 - Scientific validity: Once created, will the model provide valid, meaningful outputs?
@@ -48,10 +48,24 @@ https://www.antidiskriminierungsstelle.de/EN/homepage/_documents/download_diskr_
 
 ## Imitation
 
+///
 
+https://economictimes.indiatimes.com/magazines/panache/deep-nostalgia-new-online-ai-tool-brings-portraits-of-dead-relatives-to-life-some-call-it-spooky/articleshow/81245242.cms?from=mdr
+
+https://www.theverge.com/a/luka-artificial-intelligence-memorial-roman-mazurenko-bot
+
+Deep fakes.
+
+///
 
 ## Surveillance and privacy
 
+https://www.nature.com/articles/d41586-020-03188-2
 
+http://www.policingethicspanel.london/uploads/4/4/0/7/44076193/live_facial_recognition_final_report_may_2019.pdf
+
+https://www.adalovelaceinstitute.org/report/beyond-face-value-public-attitudes-to-facial-recognition-technology/
+
+https://blogs.microsoft.com/on-the-issues/2018/12/06/facial-recognition-its-time-for-action/
 
 {% include links.md %}
