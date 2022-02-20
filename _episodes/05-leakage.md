@@ -40,6 +40,14 @@ Another common cause of leakage is to mistakenly use information from the future
 
 In [Data Leakage in Health Outcomes Prediction With Machine Learning](https://www.jmir.org/2021/2/e10969/PDF) Chiavegatto Filho et al reflect [on a study](https://www.jmir.org/2018/1/e22/PDF) that describes a machine learning model for prediction of hypertension in patients using electronic health record data.
 
+<!-- TODO: 
+
+## Non-independence across train-test split
+
+Another common issue that can lead to data leakage is to not account for grouping within a dataset when creating train-test splits. Let's say, for example, that we are trying to use chest x-rays to predict which patients have cardiac disease. If the patients are not unique, leakage could occur if the same patient appears in both the training and test sets. The issue would be especially prominent if the patient ID was available to our model during training (in which case, instead of learning to recognise  could learn to recognise the patient). 
+
+-->
+
 <!--  
 Task: read section X and answer questions.
 -->

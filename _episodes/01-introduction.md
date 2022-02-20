@@ -12,6 +12,16 @@ keypoints:
 
 ## Responsible machine learning
 
+<!-- TODO: 
+
+# Guidelines and quality criteria for artificial intelligence-based prediction models in healthcare
+https://www.nature.com/articles/s41746-021-00549-7
+
+
+- Look at: https://twitter.com/volokuleshov/status/1475184432013352963?s=11
+
+-->
+
 Like many technologies, machine learning has the potential to cause harm is applied inappropriately. With machine learning the issues can be subtle: a seemingly good model may in fact be anything but. As an emerging technology, machine learning is largely self-regulated so awareness of potential pitfalls is especially important. 
 
 In recent years there have been important changes that have sought to introduce scrutiny and safeguards. A [2018 statement](https://web.archive.org/web/20200101022756/https://acm-fca.org/2018/03/29/negativeimpacts/) by scientists at the Association for Computing Machinery (ACM), for example, highlighted growing concerns around lack of oversight:

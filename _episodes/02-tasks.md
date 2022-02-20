@@ -12,6 +12,10 @@ keypoints:
 
 ## Tackling the right tasks
 
+TODO:
+
+- Look at: https://twitter.com/emilymbender/status/1475144994704932867?s=11
+
 Machine learning is a rapidly advancing, powerful technology that is helping to drive innovation. Before embarking on a machine learning project, consider the task carefully. Many machine learning efforts are not solving problems that need to be solved. Worse, many applications of machine learning are not for the public good. 
 
 The [NIH Guiding Principles for Ethical Research](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) provide a good starting point for any project. A slightly modified version of these principles is outlined below:
@@ -46,9 +50,17 @@ Do you support this research?
 https://www.antidiskriminierungsstelle.de/EN/homepage/_documents/download_diskr_risiken_verwendung_von_algorithmen.pdf?__blob=publicationFile&v=1
 -->
 
+## Measuring trustworthiness
+
+<!-- TODO: 
+
+https://arxiv.org/abs/2202.08674
+
+-->
+
 ## Imitation
 
-///
+<!-- TODO: 
 
 https://economictimes.indiatimes.com/magazines/panache/deep-nostalgia-new-online-ai-tool-brings-portraits-of-dead-relatives-to-life-some-call-it-spooky/articleshow/81245242.cms?from=mdr
 
@@ -56,9 +68,13 @@ https://www.theverge.com/a/luka-artificial-intelligence-memorial-roman-mazurenko
 
 Deep fakes.
 
-///
+-->
 
 ## Surveillance and privacy
+
+<!-- TODO: 
+
+https://blogs.microsoft.com/on-the-issues/2018/12/06/facial-recognition-its-time-for-action/
 
 https://www.nature.com/articles/d41586-020-03188-2
 
@@ -67,5 +83,7 @@ http://www.policingethicspanel.london/uploads/4/4/0/7/44076193/live_facial_recog
 https://www.adalovelaceinstitute.org/report/beyond-face-value-public-attitudes-to-facial-recognition-technology/
 
 https://blogs.microsoft.com/on-the-issues/2018/12/06/facial-recognition-its-time-for-action/
+
+-->
 
 {% include links.md %}

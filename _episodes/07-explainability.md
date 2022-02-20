@@ -7,12 +7,50 @@ questions:
 objectives:
 - "Consider the importance of explainability in machine learning."
 keypoints:
-- "The importance of explainability is hotly debated."
+- "The importance of explainability is a matter of debate."
 ---
 
-## Explainability of machine learning models
+## Explainability
 
-Machine learning models - in particular neural networks - are often criticised for being "black boxes". If a model is making a prediction, many of us would like to know how the decision was reached. With this understanding, we gain trust. 
+<!--  TODO:
+
+- Look at: https://twitter.com/christophmolnar/status/1098604325562138624?s=11
+
+"Interpretable" and "explainable" are terms that are often used interchangeably to describe the characteristic of a model to be understood. 
+
+In recent literature, however, interpretable is most often used to refer to models with limited complexity and predictable behaviour. For example, a decision tree:
+
+[TODO: figure]
+
+Explainable, on the other hand,...
+
+> machine learning models for which the input data are of limited complexity and clearly understandable, quantifying the relationships between these simple inputs and the outputs of the model is termed inherent explainability
+
+If a model is making a prediction, many of us would like to know how the decision was reached. With this understanding, we gain trust. Machine learning models - in particular neural networks - are often criticised for being "black boxes". 
+
+https://www.sciencedirect.com/science/article/pii/S2589750021002089#bib1
+
+-->
+
+## Saliency maps
+
+<!--  TODO:
+
+-->
+
+## Shapley values
+
+<!--  TODO:
+
+This has led to calls for explainable models.
+
+In "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead", Cynthia Rudin
+
+There is a distinction
+
+-->
+
+## Explainability of machine learning models
 
 The requirement for explainability is even making its way into legal governance. The European Union General Data Protection (GDPR)) for example, states that "[the data subject should have] the right ... to obtain an explanation of the decision reached".
 

@@ -12,6 +12,10 @@ keypoints:
 
 ## Audit
 
+<!--  TODO:
+
 https://foundation.mozilla.org/en/blog/its-time-to-develop-the-tools-we-need-to-hold-algorithms-accountable/
+
+-->
 
 {% include links.md %}

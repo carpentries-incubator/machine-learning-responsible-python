@@ -18,6 +18,24 @@ We live in a world full of bias. Opportunities such as education and healthcare 
 
 Given the uneven, biased world we live in, it is hardly surprising that the machine learning models that we build are highly susceptible to exhibiting prejudice and favoritism.
 
+<!-- TODO:
+
+## U.S. Black Lung Program
+
+The U.S. Department of Labor administers the Federal Black Lung Program, an administrative system charged with managing claims by coal miners for workers’ compensation for lung disease caused by coal mine dust.
+
+https://www.itnonline.com/content/study-reveals-bias-among-doctors-who-classify-x-rays-coal-miners-black-lung-claims
+
+https://www.atsjournals.org/doi/10.1513/AnnalsATS.202010-1350OC
+
+# BIAS
+
+Black patients scored less severe. 
+
+https://www.nature.com/articles/d41586-019-03228-6
+
+-->
+
 ## Language models
 
 Natural Language Processing (NLP) is an area of machine learning focused on the analysis of text. NLP has numerous practical applications, including voice recognition, foreign-language translation, and even [AI pair programming](https://copilot.github.com/).
@@ -35,8 +53,46 @@ Homemaker? Debiasing Word Embeddings](https://arxiv.org/pdf/1607.06520.pdf).
 
 In their paper [On the Dangers of Stochastic Parrots](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922), Bender et al further explore the risks of such language models.
 
-<!--  
+<!--  TODO:
+
 Task: read section X and answer questions.
+
+# Debiasing data
+
+https://www.abhishek-tiwari.com/bias-and-fairness-in-machine-learning/
+
+-->
+
+# Biased labels
+
+<!--  TODO:
+
+Jury learning: https://arxiv.org/abs/2202.02950
+
+-->
+
+<!--
+
+Ophthalmologists cannot classify the sex of a patient from a retinal scan. Radiologists cannot classify the race of a patient from a chest x-ray. In both cases, it appears that machine learning models can.
+
+Examples, and discussion.
+
+https://www.nature.com/articles/s41598-021-89743-x
+
+https://arxiv.org/pdf/2107.10356.pdf
+
+Models may not suffer from many of the weaknesses of humans, but they are no less susceptible to bias.
+
+https://www.theverge.com/21298762/face-depixelizer-ai-machine-learning-tool-pulse-stylegan-obama-bias
+
+-->
+
+# Second case
+
+<!--  TODO:
+
+https://arxiv.org/pdf/1908.09635.pdf
+
 -->
 
 
