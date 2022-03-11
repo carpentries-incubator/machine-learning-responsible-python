@@ -1,20 +1,27 @@
 ---
 title: "Data"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 10
 questions:
-- "What are the issues around data for machine learning?"
+- "How does data influence machine learning?"
+- "How can we better document data?"
 objectives:
-- "Recognise the importance of data for machine learning."
+- "Recognise how data influences machine learning models."
+- "Learn an approach for structured documention of data characteristics."
 keypoints:
 - "Data is fundamental to the field of machine learning."
+- "Datasheets can help us to reflect on the process of data creation and distribution."
 ---
 
 ## Data as a foundation
 
+<!--
+Should cover data representativeness: https://www.nature.com/articles/s41746-021-00549-7
+-->
+
 Data is crucial for the field of machine learning and it forms the foundation for the models that we build and use. When data is made available to the machine learning community, it has the ability to drive progress and shape the direction of research. Lack of available data, meanwhile, stifles and stalls progress. Despite the importance of data, its creation and sharing has often been relegated to footnotes in machine learning studies, seen as secondary to the work of model building and application.
 
-In recent years there have been movements towards giving data the prominence it deserves. The Conference on Neural Information Processing Systems, for example, introduced a [Dataset Track](https://neuripsconf.medium.com/announcing-the-neurips-2021-datasets-and-benchmarks-track-644e27c1e66c) for the first time in 2021 to encourage reporting "on highly valuable machine learning datasets and benchmarks" ... and to create a forum to discuss "how to improve dataset development".
+In recent years there have been movements towards giving data greater prominence. The Conference on Neural Information Processing Systems, for example, introduced a [Dataset Track](https://neuripsconf.medium.com/announcing-the-neurips-2021-datasets-and-benchmarks-track-644e27c1e66c) for the first time in 2021 to encourage reporting "on highly valuable machine learning datasets and benchmarks" ... and to create a forum to discuss "how to improve dataset development".
 
 ## The data landscape
 
