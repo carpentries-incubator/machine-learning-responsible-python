@@ -5,7 +5,7 @@ exercises: 10
 questions:
 - "How should reports of study be reported?"
 objectives:
-- "Gain awareness of reporting guidelines."
+- "Become familiar with reporting guidelines."
 keypoints:
 - "When writing up a machine learning study, refer to reporting guidelines."
 ---
@@ -14,12 +14,22 @@ keypoints:
 
 The research literature is now abundant with machine learning studies, and it is fair to say that the quality of these studies is highly variable. There is an increasing pool of reporting guidelines that can help to improve quality of reporting of machine learning studies.
 
-Transparent Reporting of a multivariable prediction model of Individual Prognosis Or Diagnosis for Artificial Intelligence (TRIPOD-AI).
+The Transparent Reporting of a multivariable prediction model of Individual Prognosis Or Diagnosis for Artificial Intelligence (TRIPOD) guidelines,
 
 <!-- TODO: 
 
 # Guidelines and quality criteria for artificial intelligence-based prediction models in healthcare
 https://www.nature.com/articles/s41746-021-00549-7
+
+TRIPOD / TRIPOD-AI: evaluate model
+
+PROBAST-AI: risk of bias
+
+DECIDE-AI: prepare study
+
+SPIRIT-AI: conduct clinical study
+
+CONSORT-AI: conduct clinical study
 
 -->
 

@@ -17,6 +17,8 @@ keypoints:
 
 <!--
 Should cover data representativeness: https://www.nature.com/articles/s41746-021-00549-7
+
+TODO: briefly mention the SSI work on FAIR etc.
 -->
 
 Data is crucial for the field of machine learning and it forms the foundation for the models that we build and use. When data is made available to the machine learning community, it has the ability to drive progress and shape the direction of research. Lack of available data, meanwhile, stifles and stalls progress. Despite the importance of data, its creation and sharing has often been relegated to footnotes in machine learning studies, seen as secondary to the work of model building and application.

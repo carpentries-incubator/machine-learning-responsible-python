@@ -3,7 +3,7 @@ title: "Introduction"
 teaching: 20
 exercises: 10
 questions:
-- "What do we mean by reponsible machine learning?"
+- "What do we mean by responsible machine learning?"
 - "What types of harm may result from development and deployment of machine learning models?"
 - "What steps are being taken to mitigate the risks of harm?"
 objectives:
@@ -18,8 +18,24 @@ keypoints:
 
 ## Responsible machine learning
 
-<!-- TODO: 
+<!-- 
 
+TODO: Briefly explain that AI and ML are essentially the same thing, and will be used interchangeably.
+
+TODO: reduce length of abstracts? Or avoid reading them and ask to read them.
+
+> ## Exercise
+> A) Try manually searching through some values of b0 and b1 to improve the model. What are the optimal parameters based on your search?
+> 
+> > ## Solution
+> > A) SOLUTION HERE!
+> > 
+> > B) SOLUTION HERE!
+> {: .solution}
+{: .challenge}
+
+
+TODO: 
 # Guidelines and quality criteria for artificial intelligence-based prediction models in healthcare
 https://www.nature.com/articles/s41746-021-00549-7
 

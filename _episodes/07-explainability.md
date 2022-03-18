@@ -3,11 +3,14 @@ title: "Explainability"
 teaching: 20
 exercises: 10
 questions:
-- "What do we mean by explainable and interpretable?"
+- "What is explainability?"
+- "Is explainability necessary?"
 objectives:
-- "Consider the importance of explainability in machine learning."
+- "Understand the concepts of explainability and interpretability."
+- "Understand how saliency maps can help us to explain a model."
 keypoints:
 - "The importance of explainability is a matter of debate."
+- "Saliency maps highlight regions of data that most strongly contributed to a decision."
 ---
 
 ## Interpretability and explainability
