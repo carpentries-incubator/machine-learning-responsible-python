@@ -4,7 +4,7 @@ teaching: 20
 exercises: 10
 questions:
 - "Which tasks are appropriate for machine learning?"
-- "What are the principles of ethical machine learning??"
+- "What are the principles of ethical machine learning?"
 objectives:
 - "Become familiar with principles for ethical research."
 - "Consider whether tasks are appropriate for machine learning."
@@ -66,6 +66,10 @@ A [response from GLAAD](https://www.glaad.org/blog/glaad-and-hrc-call-stanford-u
 > This is precisely the kind of “scientific” claim that can motivate repressive governments to apply AI algorithms to images of their citizens. And what is it to stop them from “reading” intelligence, political orientation and criminal inclinations from these images?
 
 <!--
+
+## Reflection.
+
+TODO: there should be a reflection here. What is an appropriate task. What is an ethical consideration? Say a few words. Who makes the decision and based on what. REFLECTION. 1. Regulation 2. Social 3. 
 
 ## Imitation
 
