@@ -20,19 +20,7 @@ keypoints:
 
 <!-- 
 
-TODO: Briefly explain that AI and ML are essentially the same thing, and will be used interchangeably.
-
 TODO: reduce length of abstracts? Or avoid reading them and ask to read them.
-
-> ## Exercise
-> A) Try manually searching through some values of b0 and b1 to improve the model. What are the optimal parameters based on your search?
-> 
-> > ## Solution
-> > A) SOLUTION HERE!
-> > 
-> > B) SOLUTION HERE!
-> {: .solution}
-{: .challenge}
 
 
 TODO: 
@@ -45,6 +33,8 @@ Like many technologies, machine learning has the potential to cause harm is appl
 
 In this lesson we look broadly at a number of topics that are important for applying machine learning in a responsible manner. We do not attempt to define "responsible machine learning", but we cover topics that a person who practices machine learning should be aware of. Topics range from choosing appropriate tasks, to awareness of sources of bias, to the susceptibility of models to manipulation.
 
+Given that "Artificial Intelligence" (or "A.I.") has largely become a synonym for machine learning, especially in popular culture, we will use these terms interchangeably.
+
 <!-- Are concerns about the risks of machine learning warranted? We believe so. Machine learning models have quickly become part of everyday life. Models have caused physical harm (think autonomous driving and automated medical diagnosis) 
 
 https://www.antidiskriminierungsstelle.de/EN/homepage/_documents/download_diskr_risiken_verwendung_von_algorithmen.pdf?__blob=publicationFile&v=1
@@ -52,23 +42,61 @@ https://www.antidiskriminierungsstelle.de/EN/homepage/_documents/download_diskr_
 
 ## Potential harm
 
-In their [guide to Understanding artificial intelligence ethics and safety](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf) The Turing Institute highlight six examples of the kind of harm that may result from application of machine learning systems:
+What are some examples of machine learning systems that are already in active public use? What kinds of harm could result from the application of machine learning systems? Should we be concerned or are these risks overhyped?
 
-- Bias and Discrimination: Technologies can reproduce, reinforce, and amplify the patterns of marginalisation, inequality, and
-discrimination that exist in these societies.
-- Denial of Individual Autonomy, Recourse, and Rights: situations may arise where such individuals are unable to hold directly accountable the parties responsible for these outcomes.
-- Non-transparent, Unexplainable, or Unjustifiable Outcomes: The reason for algorithmic decisions may remain opaque to its subjects. Where the model harbours traces of discrimination, bias, inequity, or unfairness, this opaqueness may be deeply problematic. 
-- Invasions of Privacy: Data capture is often invasive, revealing personal information. Deployment of models may infringe upon the ability of individuals to lead a private life.
-- Isolation and Disintegration of Social Connection:  Excessive automation might reduce the need for human-to-human interaction. Hyper-personalisation may limit our exposure to world views. Well-ordered and cohesive societies are built on relations of trust, empathy, and mutual understanding. As technologies become more prevalent, it is important that these relations be preserved. 
-- Unreliable, Unsafe, or Poor-Quality Outcomes: Irresponsible data management, negligent design and production processes, and questionable deployment practices can, each in their own ways, lead to the implementation and distribution of AI systems that produce unreliable, unsafe, or poor-quality outcomes.
+In their [guide to Understanding artificial intelligence ethics and safety](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf) The Turing Institute highlight examples of the kind of harm that may result from application of machine learning system.  Take a look at the table on pages 5-6 of the Turing Report. How many categories of harm are highlighted? 
+
+> ## Exercise
+> Match the following sentences to one of the categories of harm highlighted in the report.
+> 
+> A) Situations may arise where such individuals are unable to hold the parties responsible for outcomes directly accountable.
+> 
+> B) Data capture is often invasive, revealing personal information. Deployment of models may infringe upon the ability of individuals to lead a private life.  
+> 
+> C) Irresponsible data management, negligent design and production processes, and questionable deployment practices can, each in their own ways, lead to the implementation and distribution of AI systems that produce unreliable, unsafe, or poor-quality outcomes.
+> 
+> D) Technologies can reproduce, reinforce, and amplify the patterns of marginalisation, inequality, and discrimination that exist in these societies.
+> 
+> E) Excessive automation might reduce the need for human-to-human interaction. Hyper-personalisation may limit our exposure to world views. Well-ordered and cohesive societies are built on relations of trust, empathy, and mutual understanding. As technologies become more prevalent, it is important that these relations be preserved.   
+> 
+> F) The reason for algorithmic decisions may remain opaque to its subjects. Where the model harbours traces of discrimination, bias, inequity, or unfairness, this opaqueness may be deeply problematic. 
+> 
+> > ## Solution
+> > A) Denial of Individual Autonomy, Recourse, and Rights  
+> > 
+> > B) Invasions of Privacy
+> > 
+> > C) Unreliable, Unsafe, or Poor-Quality Outcomes
+> > 
+> > D) Bias and Discrimination
+> > 
+> > E) Isolation and Disintegration of Social Connection
+> > 
+> > F) Non-transparent, Unexplainable, or Unjustifiable Outcomes
+> > 
+> {: .solution}
+{: .challenge}
+
 
 ## Need for oversight
 
-In recent years there have been important changes that have sought to introduce scrutiny and safeguards. A [2018 statement](https://web.archive.org/web/20200101022756/https://acm-fca.org/2018/03/29/negativeimpacts/) by scientists at the Association for Computing Machinery (ACM), for example, highlighted growing concerns around lack of oversight:
+In recent years there have been important changes that have sought to introduce scrutiny and safeguards to the development and application of machine learning. A [2018 statement](https://web.archive.org/web/20200101022756/https://acm-fca.org/2018/03/29/negativeimpacts/) by scientists at the Association for Computing Machinery (ACM), for example, highlighted growing concerns around lack of oversight:
 
 > "There clearly is a massive gap between the real-world impacts of computing research and the positivity with which we in the computing community tend to view our work. We believe that this gap represents a serious and embarrassing intellectual lapse. The scale of this lapse is truly tremendous: it is analogous to the medical community only writing about the benefits of a given treatment and completely ignoring the side effects, no matter how serious they are."
 
-The statement called for peer reviewers of papers and proposals to require authors to "rigorously consider all reasonable broader impacts, both positive and negative.". Where projects were likely to have a net negative impact, the statement suggests that authors "be encouraged to discuss complementary technologies, policy, or other interventions that could mitigate the negative broader impacts".
+Take a few moments to [read the ACM statement](https://web.archive.org/web/20200101022756/https://acm-fca.org/2018/03/29/negativeimpacts/). 
+
+> ## Exercise
+> A) What are some of the negative impacts of research reported in the article?
+> 
+> B) What "small change" do the authors suggest could have a big impact?
+> 
+> > ## Solution
+> > A) Points include: Disruption of careers; Generated audio and video might threaten democracy; Decline in privacy rights; Spread of false information, conspiracy theories, and propaganda.
+> > 
+> > B) "Peer reviewers should require that papers and proposals rigorously consider all reasonable broader impacts, both positive and negative." Where projects were likely to have a net negative impact, the statement suggests that authors "be encouraged to discuss complementary technologies, policy, or other interventions that could mitigate the negative broader impacts".
+> {: .solution}
+{: .challenge}
 
 ## Impact statements
 
@@ -93,8 +121,3 @@ The European Commission meanwhile is [developing a regulatory framework](https:/
 Systems that are deemed to have "unacceptable risk" - such as "social scoring by governments" and "toys using voice assistance that encourages dangerous behaviour" - would be banned. "High risk" systems - such as artificial intelligence assisted surgery - would be tightly regulated. The high-risk systems would, for example, be required to be trained on "high quality" datasets; to keep a log of their activity; and to be subject to human oversight.
 
 {% include links.md %}
-
-Hecht, B., Wilcox, L., Bigham, J.P., Schöning, J., Hoque, E., Ernst, J., Bisk, Y., De Russis, L., Yarosh, L., Anjum, B., Contractor, D. and Wu, C. 2018. It’s Time to Do Something: Mitigating the Negative Impacts of Computing Through a Change to the Peer Review Process. ACM Future of Computing Blog. https://acm-fca.org/2018/03/29/negativeimpacts/. [Available from: https://brenthecht.com/papers/FCADIscussions_NegativeImpactsPost_032918.pdf]
-
-
-
