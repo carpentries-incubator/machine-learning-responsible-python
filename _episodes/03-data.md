@@ -23,7 +23,33 @@ TODO: briefly mention the SSI work on FAIR etc.
 
 Data is crucial for the field of machine learning and it forms the foundation for the models that we build and use. When data is made available to the machine learning community, it has the ability to drive progress and shape the direction of research. Lack of available data, meanwhile, stifles and stalls progress. Despite the importance of data, its creation and sharing has often been relegated to footnotes in machine learning studies, seen as secondary to the work of model building and application.
 
-In recent years there have been movements towards giving data greater prominence. The Conference on Neural Information Processing Systems, for example, introduced a [Dataset Track](https://neuripsconf.medium.com/announcing-the-neurips-2021-datasets-and-benchmarks-track-644e27c1e66c) for the first time in 2021 to encourage reporting "on highly valuable machine learning datasets and benchmarks" ... and to create a forum to discuss "how to improve dataset development".
+## Machine learning during the pandemic
+
+When COVID-19 hit Europe in 2020, machine learning researchers around the world turned their focus to building predictive models to help beat the pandemic. Despite these efforts, [an inquiry by The Turing Institute](https://www.turing.ac.uk/sites/default/files/2021-06/data-science-and-ai-in-the-age-of-covid_full-report_2.pdf) concluded none of the models made a real difference, and some were potentially harmful.
+
+A report published in the [MIT Technology Review](https://www.technologyreview.com/2021/07/30/1030329/machine-learning-ai-failed-covid-hospital-diagnosis-pandemic/) summarises the findings of the Turing Institute.
+
+> ## Exercise
+> A) What were some of the causes of failure, according to the article in the MIT Technology Review? ("What went wrong?").
+> 
+> B) What solutions are suggested in the article? ("How to fix it?").
+> 
+> > ## Solution
+> > A) Poor quality data. "Many unwittingly used a data set that contained chest scans of children who did not have covid as their examples of what non-covid cases looked like. But as a result, the AIs learned to identify kids, not covid."
+> > 
+> > "Driggs’s group trained its own model using a data set that contained a mix of scans taken when patients were lying down and standing up. Because patients scanned while lying down were more likely to be seriously ill, the AI learned wrongly to predict serious covid risk from a person’s position."
+> > 
+> > "In yet other cases, some AIs were found to be picking up on the text font that certain hospitals used to label the scans. As a result, fonts from hospitals with more serious caseloads became predictors of covid risk."
+> > 
+> > "A more subtle problem Driggs highlights is incorporation bias, or bias introduced at the point a data set is labeled. For example, many medical scans were labeled according to whether the radiologists who created them said they showed covid. But that embeds, or incorporates, any biases of that particular doctor into the ground truth of a data set."
+> > 
+> > B) "Researchers also need to share their models and disclose how they were trained so that others can test them and build on them. “Those are two things we could do today,” he says. “And they would solve maybe 50% of the issues that we identified.”
+> >
+> > “If all these people making new models instead tested models that were already available, maybe we’d have something that could really help in the clinic by now.”
+> {: .solution}
+{: .challenge}
+
+
 
 ## The data landscape
 
@@ -35,9 +61,7 @@ In **[Data and its (dis)contents: A survey of dataset development and use in mac
 - Failure to recognize human annotation work as *interpretive work* that encodes subjective values and judgments, resulting in a conflation of "gold labels" with ground truth.
 - Management and distribution of data, especially as it relates to privacy and risk of exploitation.
 
-<!--  
-Task: read section X and answer questions.
--->
+In recent years there have been movements towards giving data greater prominence. The Conference on Neural Information Processing Systems, for example, introduced a [Dataset Track](https://neuripsconf.medium.com/announcing-the-neurips-2021-datasets-and-benchmarks-track-644e27c1e66c) for the first time in 2021 to encourage reporting "on highly valuable machine learning datasets and benchmarks" ... and to create a forum to discuss "how to improve dataset development".
 
 ## Data documentation
 
