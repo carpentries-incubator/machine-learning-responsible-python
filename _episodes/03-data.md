@@ -39,7 +39,7 @@ In **[Data and its (dis)contents: A survey of dataset development and use in mac
 
 ## What data are we training on?
 
-A 2021 study by [Birhane and colleagues](https://arxiv.org/abs/2110.01963) explored the CommonCrawl dataset, a huge dataset scraped from the internet that is often used as a source for training large language and imaging models.
+A 2021 study by [Birhane and colleagues](https://arxiv.org/abs/2110.01963) explored the LAION dataset, a huge dataset scraped from the internet that is often used as a source for training large language and imaging models.
 
 ![CommonCrawl](../fig/bad_data.png)
 
