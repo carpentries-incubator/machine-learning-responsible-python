@@ -15,13 +15,21 @@ keypoints:
 
 ## Interpretability and explainability
 
-"Interpretable" and "explainable" are terms that are often used interchangeably to describe the characteristic of a machine learning model to be understood. In recent literature, however, interpretable is perhaps more often used to refer to models with limited complexity and predictable behaviour. For example, a decision tree may be inherently interpretable:
+"Interpretable" and "explainable" are terms that are often used interchangeably to describe the characteristic of a machine learning model to be understood. In recent literature, however, interpretable is perhaps more often used to refer to models with limited complexity and predictable behaviour. For example, we've seen decision trees be inherently interpretable:
 
 ![Decision tree and boundaries.](../fig/decision-tree.png)
 
+But when we looked at convolutional neural networks it was much harder to understand what was happening "under the hood".
+
 If we can look at our model and predict what will happen to our prediction if input values change, then we can say that the model is interpretable. Often, however, data and models are too complex and high-dimensional to be easily understood. They cannot be explained by a simple relationship between inputs and outputs.
 
-For these complex models there is typically a focus on attempting to dissect the model's decision making procedure. This insights lead us to explainability: our ability to gaze into a complex model and explain its behaviour.
+So why use complex models? Well as we have seen, complex models tend to perform better, particularly on more difficult tasks. This is because the complexity of the undlerying model allows it to adapt to more complex problems, in other words these complex models are more flexible. When choosing a model we have to try and find the right balance between interpretablilty and flexibility depending on what we are going to use it for.
+
+![Interpretability vs flexibility](../fig/InterpretabilityVsFlexibility.png)
+
+Interpretability is not the only reason you may want to pick a less flexible model. These more complex models take longer and are harder to train, on top of this they will sometimes try and find more complicated relationships than the ones that actually exist in the data.
+
+There is still a focus on attempting to dissect the decision making procedure of these more complex models. These insights lead us to explainability: our ability to gaze into a complex model and explain its behaviour.
 
 ## The necessity of interpretability and explainability
 
