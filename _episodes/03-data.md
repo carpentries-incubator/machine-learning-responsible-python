@@ -37,23 +37,18 @@ In **[Data and its (dis)contents: A survey of dataset development and use in mac
 - Failure to recognize human annotation work as *interpretive work* that encodes subjective values and judgments, resulting in a conflation of "gold labels" with ground truth.
 - Management and distribution of data, especially as it relates to privacy and risk of exploitation.
 
-## What data are we training on?
-
 A 2021 study by [Birhane and colleagues](https://arxiv.org/abs/2110.01963) explored the LAION dataset, a huge dataset scraped from the internet that is often used as a source for training large language and imaging models.
 
 ![CommonCrawl](../fig/bad_data.png)
-
-[TODO: add discussion of the paper.]
 
 ## Machine learning during the pandemic
 
 When COVID-19 hit Europe in 2020, machine learning researchers around the world turned their focus to building predictive models to help beat the pandemic. Despite these efforts, [an inquiry by The Turing Institute](https://www.turing.ac.uk/sites/default/files/2021-06/data-science-and-ai-in-the-age-of-covid_full-report_2.pdf) concluded none of the models made a real difference, and some were potentially harmful.
 
-A report published in the [MIT Technology Review](https://www.technologyreview.com/2021/07/30/1030329/machine-learning-ai-failed-covid-hospital-diagnosis-pandemic/) summarises the findings of the Turing Institute.
-
 > ## Exercise
-> A) What were some of the causes of failure, according to the article in the MIT Technology Review? ("What went wrong?").
-> 
+> Look at this report published in the [MIT Technology Review](https://www.technologyreview.com/2021/07/30/1030329/machine-learning-ai-failed-covid-hospital-diagnosis-pandemic/) that summarises the findings of the Turing Institute.  
+>  
+> A) What were some of the causes of failure, according to the article in the MIT Technology Review? ("What went wrong?").  
 > B) What solutions are suggested in the article? ("How to fix it?").
 > 
 > > ## Solution
@@ -77,12 +72,24 @@ Given the fundamental role of data in machine learning, there have been calls fo
 
 The Conference on Neural Information Processing Systems, for example, introduced a [Dataset Track](https://neuripsconf.medium.com/announcing-the-neurips-2021-datasets-and-benchmarks-track-644e27c1e66c) for the first time in 2021 to encourage reporting "on highly valuable machine learning datasets and benchmarks" ... and to create a forum to discuss "how to improve dataset development".
 
-In [Datasheets for Datasets](https://arxiv.org/pdf/1803.09010.pdf), Gebru et al call for data creators to provide "datasheets" to accompany the datasets that they share. 
-
-The datasheets serve dual purposes: for the creator they encourage reflection on the data creation and distribution process, and for the consumer they offer details necessary to make informed decisions about using a dataset
+In [Datasheets for Datasets](https://arxiv.org/pdf/1803.09010.pdf), Gebru et al call for data creators to provide "datasheets" to accompany the datasets that they share. The datasheets serve dual purposes: for the creator they encourage reflection on the data creation and distribution process, and for the consumer they offer details necessary to make informed decisions about using a dataset
 
 > "We propose that every dataset be accompanied with a datasheet that documents its motivation, composition, collection process, recommended uses, and so on. Datasheets for datasets have the potential to increase transparency and accountability within the machine learning community, mitigate unwanted societal biases in machine learning models, facilitate greater reproducibility of machine learning results, and help researchers and practitioners to select more appropriate datasets for their chosen tasks
 
-[TODO: add discussion of these points.]
+> ## Exercise
+> Look at Appendix A of [Datasheets for Datasets](https://arxiv.org/pdf/1803.09010.pdf).  
+>  
+> What sections are included in the example datasheet? What do these sections seek to capture?
+> 
+> > ## Solution
+> >  - Motivation
+> >  - Composition
+> >  - Collection Process
+> >  - Preprocessing/cleaning/labeling
+> >  - Uses
+> >  - Distribution
+> >  - Maintenance
+> {: .solution}
+{: .challenge}
 
 {% include links.md %}
