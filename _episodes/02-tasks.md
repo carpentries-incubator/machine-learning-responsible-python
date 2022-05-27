@@ -16,15 +16,24 @@ keypoints:
 
 Machine learning is a rapidly advancing, powerful technology that is helping to drive innovation. Before embarking on a machine learning project, we need to consider the task carefully. Many machine learning efforts are not solving problems that need to be solved. Worse, many applications of machine learning are not for the public good. 
 
-The [NIH Guiding Principles for Ethical Research](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) provide a useful set of considerations for any project. A condensed version of these principles is outlined below:
+The [NIH Guiding Principles for Ethical Research](https://www.nih.gov/health-information/nih-clinical-research-trials-you/guiding-principles-ethical-research) provide a useful set of considerations for any project. 
 
-- Social and clinical value: Does the social or clinical value of developing and implementing the model outweigh the risk and burden of the people involved?
-- Scientific validity: Once created, will the model provide valid, meaningful outputs?
-- Fair subject selection: Are the people who contribute and benefit from the model selected fairly, and not through vulnerability, privilege, or other unrelated factors?
-- Favorable risk-benefit ratio: Do the potential benefits of of developing and implementing the model outweigh the risks?
-- Independent review: Has the project been reviewed by someone independent of the project, and has an Institutional Review Board (IRB) been approached where appropriate? 
-- Informed consent: Are participants whose data contributes to development and implementation of the model, as well as downstream recipients of the model, kept informed?
-- Respect for potential and enrolled subjects: Is the privacy of participants respected and are steps taken to continuously monitor the effect of the model on downstream participants?
+> ## Exercise
+> Take a look at the NIH Guiding Principles for Ethical Research.  
+> 
+> What are the main principles?  
+>   
+> > ## Solution
+> > A summary of the principles are listed below: 
+> > - Social and clinical value: Does the social or clinical value of developing and implementing the model outweigh the risk and burden of the people involved?
+> > - Scientific validity: Once created, will the model provide valid, meaningful outputs?
+> > - Fair subject selection: Are the people who contribute and benefit from the model selected fairly, and not through vulnerability, privilege, or other unrelated factors?
+> > - Favorable risk-benefit ratio: Do the potential benefits of of developing and implementing the model outweigh the risks?
+> > - Independent review: Has the project been reviewed by someone independent of the project, and has an Institutional Review Board (IRB) been approached where appropriate? 
+> > - Informed consent: Are participants whose data contributes to development and implementation of the model, as well as downstream recipients of the model, kept informed?
+> > - Respect for potential and enrolled subjects: Is the privacy of participants respected and are steps taken to continuously monitor the effect of the model on downstream participants?
+> {: .solution}
+{: .challenge}
 
 What kind of tasks should we be trying to tackle? How much should we worry about technology being misused several years down the line? The answers are not always clear. Here we explore some cases that have raised concerns relating to discrimination, misinformation, and privacy.
 
