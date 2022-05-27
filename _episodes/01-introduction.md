@@ -44,35 +44,18 @@ https://www.antidiskriminierungsstelle.de/EN/homepage/_documents/download_diskr_
 
 What are some examples of machine learning systems that are already in active public use? What kinds of harm could result from the application of machine learning systems? Should we be concerned or are these risks overhyped?
 
-In their [guide to Understanding artificial intelligence ethics and safety](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf) The Turing Institute highlight examples of the kind of harm that may result from application of machine learning system.  Take a look at the table on pages 5-6 of the Turing Report. How many categories of harm are highlighted? 
+In their [guide to Understanding artificial intelligence ethics and safety](https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf) The Turing Institute highlight examples of the kind of harm that may result from application of machine learning system.  
 
 > ## Exercise
-> Match the following sentences to one of the categories of harm highlighted in the report.
-> 
-> A) Situations may arise where such individuals are unable to hold the parties responsible for outcomes directly accountable.
-> 
-> B) Data capture is often invasive, revealing personal information. Deployment of models may infringe upon the ability of individuals to lead a private life.  
-> 
-> C) Irresponsible data management, negligent design and production processes, and questionable deployment practices can, each in their own ways, lead to the implementation and distribution of AI systems that produce unreliable, unsafe, or poor-quality outcomes.
-> 
-> D) Technologies can reproduce, reinforce, and amplify the patterns of marginalisation, inequality, and discrimination that exist in these societies.
-> 
-> E) Excessive automation might reduce the need for human-to-human interaction. Hyper-personalisation may limit our exposure to world views. Well-ordered and cohesive societies are built on relations of trust, empathy, and mutual understanding. As technologies become more prevalent, it is important that these relations be preserved.   
-> 
-> F) The reason for algorithmic decisions may remain opaque to its subjects. Where the model harbours traces of discrimination, bias, inequity, or unfairness, this opaqueness may be deeply problematic. 
+> Take a look at the table on pages 5-6 of the Turing Report. What categories of harm are highlighted? 
 > 
 > > ## Solution
-> > A) Denial of Individual Autonomy, Recourse, and Rights  
-> > 
-> > B) Invasions of Privacy
-> > 
-> > C) Unreliable, Unsafe, or Poor-Quality Outcomes
-> > 
-> > D) Bias and Discrimination
-> > 
-> > E) Isolation and Disintegration of Social Connection
-> > 
-> > F) Non-transparent, Unexplainable, or Unjustifiable Outcomes
+> > - Bias and Discrimination
+> > - Denial of Individual Autonomy, Recourse, and Rights 
+> > - Non-transparent, Unexplainable, or Unjustifiable Outcomes
+> > - Invasions of Privacy 
+> > - Isolation and Disintegration of Social Connection
+> > - Unreliable, Unsafe, or Poor-Quality Outcomes 
 > > 
 > {: .solution}
 {: .challenge}
@@ -84,11 +67,11 @@ In recent years there have been important changes that have sought to introduce 
 
 > "There clearly is a massive gap between the real-world impacts of computing research and the positivity with which we in the computing community tend to view our work. We believe that this gap represents a serious and embarrassing intellectual lapse. The scale of this lapse is truly tremendous: it is analogous to the medical community only writing about the benefits of a given treatment and completely ignoring the side effects, no matter how serious they are."
 
-Take a few moments to [read the ACM statement](https://web.archive.org/web/20200101022756/https://acm-fca.org/2018/03/29/negativeimpacts/). 
 
 > ## Exercise
-> A) What are some of the negative impacts of research reported in the article?
+> Take a few moments to [read the ACM statement](https://web.archive.org/web/20200101022756/https://acm-fca.org/2018/03/29/negativeimpacts/).   
 > 
+> A) What are some of the negative impacts of research reported in the article?  
 > B) What "small change" do the authors suggest could have a big impact?
 > 
 > > ## Solution
@@ -104,15 +87,26 @@ In 2020, for the first time the [call for papers](https://neurips.cc/Conferences
 
 >  In order to provide a balanced perspective, authors are required to include a statement of the potential broader impact of their work, including its ethical aspects and future societal consequences. Authors should take care to discuss both positive and negative outcomes.
 
-While questions remain about the effectiveness of this policy change, it demonstrates growing recognition of the importance of responsible machine learning and it is a step towards the oversight that many believe is needed. An [analysis of the statements](https://arxiv.org/pdf/2105.04760.pdf) that were submitted to the 2020 conference found that the broader impact statements raised concerns in areas such as:
+While questions remain about the effectiveness of this policy change, it demonstrates growing recognition of the importance of responsible machine learning and it is a step towards the research oversight that many believe is needed. An [analysis of the statements](https://arxiv.org/pdf/2105.04760.pdf) that were submitted to the 2020 conference found that the broader impact statements raised concerns in several areas:
 
-- Privacy: impact around personal data and surveillance.
-- Labor: impact on employment and productivity.
-- Environment: impact on the environment, including the carbon footprint of training models.
-- Media: impact in the media, particularly around fake news and misinformation.
-- Bias: impact in terms of fairness and discrimination.
-- Reliability: impact of models that failed to meet expectations.
-- Interpretability: impact of the opaqueness of models and the "black box problem".
+> ## Exercise
+> Take a look at Section 5.1.2 of the [analysis](https://arxiv.org/pdf/2105.04760.pdf) on Types of Impacts (beginning page 5).  
+> 
+> What are some of the concerns that were raised in the impact statements?  
+>   
+> > ## Solution
+> > Concerns raised in the impact statements included: 
+> > - Privacy: impact around personal data and surveillance.
+> > - Labor: impact on employment and productivity.
+> > - Environment: impact on the environment, including the carbon footprint of training models.
+> > - Media: impact in the media, particularly around fake news and misinformation.
+> > - Bias: impact in terms of fairness and discrimination.
+> > - Reliability: impact of models that failed to meet expectations.
+> > - Interpretability: impact of the opaqueness of models and the "black box problem".
+> {: .solution}
+{: .challenge}
+
+
 
 ## Regulation
 
