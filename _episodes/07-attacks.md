@@ -1,5 +1,5 @@
 ---
-title: "Susceptibility"
+title: "Attacks"
 teaching: 20
 exercises: 10
 questions:
@@ -25,12 +25,6 @@ While the "adversarial patch" requires significant effort to fool the algorithm,
 ![poodle](../fig/poodle.png){: width="800px"}
 
 ![apple](../fig/apple.png){: width="800px"}
-
-These benign examples cover a more sinister aspect of the models: they encode the harmful biases that we know to exist.
-
-> "Many associations we have discovered appear to be benign, but yet we have discovered several cases where CLIP holds associations that could result in representational harm, such as denigration of certain individuals or groups."
-
-> "We have observed, for example, a “Middle East” neuron with an association with terrorism; and an “immigration” neuron that responds to Latin America. We have even found a neuron that fires for both dark-skinned people and gorillas, mirroring earlier photo tagging incidents in other models we consider unacceptable."
 
 
 <!--
