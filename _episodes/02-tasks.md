@@ -24,7 +24,7 @@ The [NIH Guiding Principles for Ethical Research](https://www.nih.gov/health-inf
 > What are the main principles?  
 >   
 > > ## Solution
-> > A summary of the principles are listed below: 
+> > A summary of the principles is listed below: 
 > > - Social and clinical value: Does the social or clinical value of developing and implementing the model outweigh the risk and burden of the people involved?
 > > - Scientific validity: Once created, will the model provide valid, meaningful outputs?
 > > - Fair subject selection: Are the people who contribute and benefit from the model selected fairly, and not through vulnerability, privilege, or other unrelated factors?
