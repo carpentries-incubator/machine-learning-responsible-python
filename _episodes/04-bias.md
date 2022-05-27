@@ -76,7 +76,13 @@ Similar biases can be seen in image models. In [their paper](https://arxiv.org/p
 
 The paper demonstrates how a blurry, low resolution image can be transformed into a "sharp, realistic, high-resolution image". Soon after publication, apparent biases were [shared widely on social media](https://twitter.com/Chicken3gg/status/1274314622447820801?s=20&t=_oORPJBJRaBW_J0zresFJQ).
 
-![Barack Obama by @Chicken3gg, Twitter](../fig/pulse_chicken3gg.png)
+> ## Question
+> A) Who is shown in this blurred picture? ![Barack Obama by @Chicken3gg, Twitter](../fig/pulse_chicken3gg_original.png)
+> 
+> > ## Answer
+> > A) While the picture is of Barack Obama, the upsampled image shows a white face. ![Barack Obama by @Chicken3gg, Twitter](../fig/pulse_chicken3gg_result.png)
+> {: .solution}
+{: .challenge}
 
 Menon and colleagues subsequently updated their paper to discuss this issue of bias. They assert that the problems inherent in the PULSE model are largely a result of the [underlying StyleGAN model](https://arxiv.org/abs/1812.04948), which they had used in their work. 
 
