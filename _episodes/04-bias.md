@@ -30,6 +30,30 @@ Machine learning models are increasingly used in ways that directly affect peopl
 
 Strategies to achieve fairness often focus on attempting to eliminate bias in training data (for example, by collecting more representative datasets) or by making algorithmic adjustments (for example, by weighting underrepresented classes more heavily). This remains an active research area, wth no simple solutions. 
 
+## Photo upsampling
+
+Biases are often most obvious in imaging models. In [their paper](https://arxiv.org/pdf/2003.03808.pdf) on "PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models", Menon and colleagues describe the application of a machine learning algorithm for upsampling images. 
+
+The paper demonstrates how a blurry, low resolution image can be transformed into a "sharp, realistic, high-resolution image". Soon after publication, apparent biases were [shared widely on social media](https://twitter.com/Chicken3gg/status/1274314622447820801?s=20&t=_oORPJBJRaBW_J0zresFJQ).
+
+> ## Question
+> A) Who is shown in this blurred picture? ![Barack Obama by @Chicken3gg, Twitter](../fig/pulse_chicken3gg_original.png)
+> 
+> > ## Answer
+> > A) While the picture is of Barack Obama, the upsampled image shows a white face. ![Barack Obama by @Chicken3gg, Twitter](../fig/pulse_chicken3gg_result.png)
+> {: .solution}
+{: .challenge}
+
+Menon and colleagues subsequently updated their paper to discuss this issue of bias. They assert that the problems inherent in the PULSE model are largely a result of the [underlying StyleGAN model](https://arxiv.org/abs/1812.04948), which they had used in their work. 
+
+> Overall, it seems that sampling from StyleGAN yields white faces much more frequently than faces of people of color ... This bias extends to any downstream application of StyleGAN, including the implementation of PULSE using StyleGAN.
+> 
+> ...
+> 
+> Results indicate a racial bias among the generated pictures, with close to three-fourths (72.6%) of the pictures representing White people. Asian (13.8%) and Black (10.1%) are considerably less frequent, while Indians represent only a minor fraction of the pictures (3.4%).
+
+You can [try the model here](https://colab.research.google.com/github/tg-bomze/Face-Depixelizer/blob/master/Face_Depixelizer_Eng.ipynb#scrollTo=fU0aGtD4Nl4W).
+
 ## Language models
 
 Natural Language Processing (NLP) is an area of machine learning focused on the analysis of text. NLP has numerous practical applications, including voice recognition, foreign-language translation, and even [AI pair programming](https://copilot.github.com/).
@@ -69,30 +93,6 @@ The abstract is copied below:
 In summarizing paths forward for research, they suggest:
 
 > In summary, we advocate for research that centers the people who stand to be adversely affected by the resulting technology, with a broad view on the possible ways that technology can affect people. This, in turn, means making time in the research process for considering environmental impacts, for doing careful data curation and documentation, for engaging with stakeholders early in the design process, for exploring multiple possible paths towards longterm goals, for keeping alert to dual-use scenarios, and finally for allocating research effort to harm mitigation in such cases.
-
-## Photo upsampling
-
-Similar biases can be seen in image models. In [their paper](https://arxiv.org/pdf/2003.03808.pdf) on "PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models", Menon and colleagues describe the application of a machine learning algorithm for upsampling images. 
-
-The paper demonstrates how a blurry, low resolution image can be transformed into a "sharp, realistic, high-resolution image". Soon after publication, apparent biases were [shared widely on social media](https://twitter.com/Chicken3gg/status/1274314622447820801?s=20&t=_oORPJBJRaBW_J0zresFJQ).
-
-> ## Question
-> A) Who is shown in this blurred picture? ![Barack Obama by @Chicken3gg, Twitter](../fig/pulse_chicken3gg_original.png)
-> 
-> > ## Answer
-> > A) While the picture is of Barack Obama, the upsampled image shows a white face. ![Barack Obama by @Chicken3gg, Twitter](../fig/pulse_chicken3gg_result.png)
-> {: .solution}
-{: .challenge}
-
-Menon and colleagues subsequently updated their paper to discuss this issue of bias. They assert that the problems inherent in the PULSE model are largely a result of the [underlying StyleGAN model](https://arxiv.org/abs/1812.04948), which they had used in their work. 
-
-> Overall, it seems that sampling from StyleGAN yields white faces much more frequently than faces of people of color ... This bias extends to any downstream application of StyleGAN, including the implementation of PULSE using StyleGAN.
-> 
-> ...
-> 
-> Results indicate a racial bias among the generated pictures, with close to three-fourths (72.6%) of the pictures representing White people. Asian (13.8%) and Black (10.1%) are considerably less frequent, while Indians represent only a minor fraction of the pictures (3.4%).
-
-You can [try the model here](https://colab.research.google.com/github/tg-bomze/Face-Depixelizer/blob/master/Face_Depixelizer_Eng.ipynb#scrollTo=fU0aGtD4Nl4W).
 
 <!--
 
