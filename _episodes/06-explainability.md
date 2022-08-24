@@ -57,6 +57,21 @@ These concerns also extend to other well known post-hoc explanation methods such
 
 -->
 
+> ## Explainability Algorithms Aren't Perfect
+>
+> When we make a machine learning model, we are trying to use a mathematical framework to recreate a system as faithfully as we can. Explainability algorithms then try and analyse these frameworks to understand how changes in the input variables will affect the predictions. There are many issues to consider when picking an explainability algorithm as **different algorithms can give different explanations of the same system**. In general 'simpler' models have more obvious methods of explainability and this is one of the reasons why they are favoured over 'more complex' models.
+>
+> There are more issues to consider than this though. We have to remember that as our models are sensitive to the training data our explainability algorithms will be too. Linear regression is generally considered to be the most explainable of all the machine learning algorithms. To explore the effect that small changes in input data can have, the [Boston Housing Data](https://www.kaggle.com/code/prasadperera/the-boston-housing-dataset/notebook) was taken, it was centered, scaled and bootstrapped 25,000 times. On each of these 25,000 resamples a linear regression model was trained and the coefficients for each predictor were saved (the larger the size of the coefficient, the 'more important' that variable is and whether it is positive or negative indicates whether it has a positive or negative effect on the model).
+>
+> ![LinRegExample](../fig/lin_reg_example.png)
+>
+> The left plot above shows the range of values of the coefficients for each predictor. Not only can you see that the value of the estimate varies alot, but there are variables (like `crim`) that are mainly negative but there are many variables where the coefficient is positive. This becomes obviously ludicrous because the real world interpretation of this would be *'the median value of owner-occupied homes in boston **increases** with the per capita crime rate of the town it is in'*.
+>
+> Not only does the value of the coefficients change, but the order of importance of the variables changes. Each predictor was ranked by importance for each model and the number of times a predictor appears in each position is shown in the histogram on the right above. You can see that how important variables are compared to one another can vary wildly, like the predictor `rm`, representing the average number of rooms per property in the town, is very sensitive to small changes in the collected data.
+>
+> All of this is to say, that just like you have to choose and evaluate your models carefully, so do you have to choose and evaluate your explainability algorithms carefully.
+{: .callout}
+
 ## Explainability of machine learning models
 
 The requirement for explainability is even making its way into legal governance. The European Union General Data Protection (GDPR)) for example, states that "[the data subject should have] the right ... to obtain an explanation of the decision reached".
