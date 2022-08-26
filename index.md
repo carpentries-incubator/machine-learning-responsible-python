@@ -3,7 +3,7 @@ layout: lesson
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
-This lesson explores key topics on the responsible application of machine learning. The lesson is presented as a series of case studies that illustrate real world examples. Episodes cover a broad range of topics, including reproducibility, bias, and interpretability.
+This lesson explores key topics on the responsible application of machine learning. The lesson is presented as a series of case studies that illustrate real world examples. Sections cover a broad range of topics, including reproducibility, bias, and interpretability. Broadly the topics are ordered chronologically, appearing as they would when thinking through a research study.
 
 <!-- this is an html comment -->
 
