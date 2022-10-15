@@ -26,6 +26,13 @@ While the "adversarial patch" requires significant effort to fool the algorithm,
 
 ![apple](../fig/apple.png){: width="800px"}
 
+## Adversarial attacks in tumour classification
+
+Computational models are being used more and more for tasks with serious real world outcomes. One example of this is in computational pathology where deep learning models are used to look at tissue sections and classify wheter or not a section of tissue is cancerous. ['Now You See It, Now You Don't'](https://doi.org/10.48550/arXiv.2106.08153) is a paper dedicated to showing how adversarial attacks in one of these tissue classification models can cause a pertubation in an image that is not detectable to the human eye but wildly changes the prediction of a well trained model.
+
+![Adversarial attacks in computational pathology](../fig/adversarial_attack_tumour.png)
+
+This figure shows the original and perturbed images along with how this affected the saliency maps and overall image classifications. The paper not only showed how individual images could be manipulated by specific pertubations, but also created a single pertubation that would have an adversarial effect on all of the images used by the model. They concluded: "Based on our analysis, we strongly recommend that computational pathology models be critically analyzed using the proposed adversarial validation strategy prior to clinical adoption".
 
 <!--
 
