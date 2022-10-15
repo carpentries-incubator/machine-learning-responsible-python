@@ -33,7 +33,7 @@ If a model is making a prediction, many of us would like to know how the decisio
 - Causality: that predicted changes in output due to a perturbation will occur as expected. 
 - Usability: that methods provide information that assist users to accomplish a task.
 
-In machine learning in health, it has been argued that explainable AI is necessary to gain trust with the health-care workforce, provide transparency into decision making processes, and to mitigate bias. As a counterpoint, [Ghassemi and colleagues](https://doi.org/10.1016/S2589-7500(21)00208-9) argue that urrent explainability methods are unlikely to achieve these goals for patient-level decision support.
+In machine learning in health, it has been argued that explainable AI is necessary to gain trust with the health-care workforce, provide transparency into decision making processes, and to mitigate bias. As a counterpoint, [Ghassemi and colleagues](https://doi.org/10.1016/S2589-7500(21)00208-9) argue that current explainability methods are unlikely to achieve these goals for patient-level decision support.
 
 Instead, they advocate for "rigorous internal and external validation of AI models as a more direct means of achieving the goals often associated with explainability", and "caution against having explainability be a requirement for clinically deployed models".
 
