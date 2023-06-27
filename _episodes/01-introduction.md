@@ -29,7 +29,7 @@ https://www.nature.com/articles/s41746-021-00549-7
 
 -->
 
-Like many technologies, machine learning has the potential to cause harm is applied inappropriately. With machine learning the issues can be subtle: a seemingly good model may in fact be anything but. As an emerging technology, machine learning is largely self-regulated so awareness of potential pitfalls is especially important. 
+Like many technologies, machine learning has the potential to cause harm if applied inappropriately. With machine learning the issues can be subtle: a seemingly good model may in fact be anything but. As an emerging technology, machine learning is largely self-regulated so awareness of potential pitfalls is especially important. 
 
 In this lesson we look broadly at a number of topics that are important for applying machine learning in a responsible manner. We do not attempt to define "responsible machine learning", but we cover topics that a person who practices machine learning should be aware of. Topics range from choosing appropriate tasks, to awareness of sources of bias, to the susceptibility of models to manipulation.
 
