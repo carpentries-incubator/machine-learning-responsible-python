@@ -15,12 +15,12 @@ title: Glossary
     The tendency to trust or favor machine generated results over human ones. We may have tendencies to ignore contrary data, especially if it is human generated. Humans may tend towards low cognitive effort decisions. This issue has a longer history of research in the aviation industry, where there may be lessons to be learned.
 
 - **Autonomy**:
-    The idea that individuals should be independant in making choices and controling their future. Autonomy is a pillar of medical ethics. 
+ The idea that individuals should be independant in making choices and controling their future. Autonomy is a pillar of medical ethics. 
 
 - **Beneficence**:
-    ...pillar of medicAL ethics
+ ...pillar of medicAL ethics
 
--**The Chinese room argument**:
+- **The Chinese room argument**:
 
 - **Conseuquentialism**:
   
@@ -30,13 +30,11 @@ title: Glossary
 -**Deontological ethics**:
  
 
-
-
 -**Doctrine of Double effect**:
-    This doctrine was outlined by Thomas Aquinas. It states that actions may have both an intended and unintended effect, and we are morally responsible for the intended effect so long as the unintended effect was not our goal. The classic example is one of civilian deaths when targetting combatants in a war. This is viewed as acceptable so long as it was not the goal. Can we apply such a doctrine in the case of offensive content stickers for Facebook users in Mynmar? A side effect was that they increased interaction i.e. "maximized engagement" amplifying messages of anti-Rohingya hatred. 
+  This doctrine was outlined by Thomas Aquinas. It states that actions may have both an intended and unintended effect, and we are morally responsible for the intended effect so long as the unintended effect was not our goal. The classic example is one of civilian deaths when targetting combatants in a war. This is viewed as acceptable so long as it was not the goal. Can we apply such a doctrine in the case of offensive content stickers for Facebook users in Mynmar? A side effect was that they increased interaction i.e. "maximized engagement" amplifying messages of anti-Rohingya hatred. 
 
 -**Epistemology**:
-    A branch of philosophy concerned with th structure and basis of knowledge. 
+  A branch of philosophy concerned with th structure and basis of knowledge. 
 
 
 - **FAT algorithm**: An algorithm with fairness, accountability and transparency. These qualities can be contrasted to those of many algorithms critical to modern life as pointed out by many scholars including Cathy O'Niel Harris in her book 'Weapons of Math Destruction' who posits it is very common for algorithmic tools to be opaque and difficult to contest. 
@@ -46,7 +44,7 @@ title: Glossary
 
  
 - **Hypernudge**:
-    A relatively (2017) new term to descibe an intentional system of algorithmic human behavioural regulation based on data collection and interaction without explicit use of force and coercion. Depending upon the scholar defining it, these nudges may also be adaptive, changing over time as the user behaviour changes. Hypernudging is different from simple nudging, even in digital form, in that it involves personalized data driving choice environments. For example a social media platform may have a feed which offers certain choices, meant to influence behavious, prominently, and others not at all; all based on AI based profiles of the user. This can be argued implications in terms autonomy versus paternalism and non-manipulation which may imply non-malevolnce.
+  A relatively (2017) new term to descibe an intentional system of algorithmic human behavioural regulation based on data collection and interaction without explicit use of force and coercion. Depending upon the scholar defining it, these nudges may also be adaptive, changing over time as the user behaviour changes. Hypernudging is different from simple nudging, even in digital form, in that it involves personalized data driving choice environments. For example a social media platform may have a feed which offers certain choices, meant to influence behavious, prominently, and others not at all; all based on AI based profiles of the user. This can be argued implications in terms autonomy versus paternalism and non-manipulation which may imply non-malevolnce.
 
 
 - **Impossibility theory**:
