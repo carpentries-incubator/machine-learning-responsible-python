@@ -12,7 +12,7 @@ title: Glossary
   Augmented data is data created by manipulation of original raw data in a dataset. In the case of images this might be something like an affine transform or a contrast enhancement, although in this example only the affine transform allows full recovery of original data, both could allow re-identification of original data. All kinds of data could be augmented to produce more training material for AI algorithms. check for Glossario link?
 
 - **Automation Bias**:
-    The tendency to trust or favor machine generated results over human ones. We may have tendencies to ignore contrary data, especially if it is human generated. Humans may tend towards low cognitive effort decisions. This issue has a longer history of research in the aviation industry, where there may be lessons to be learned.
+  The tendency to trust or favor machine generated results over human ones. We may have tendencies to ignore contrary data, especially if it is human generated. Humans may tend towards low cognitive effort decisions. This issue has a longer history of research in the aviation industry, where there may be lessons to be learned.
 
 - **Autonomy**:
  The idea that individuals should be independant in making choices and controling their future. Autonomy is a pillar of medical ethics. 
@@ -52,13 +52,13 @@ title: Glossary
 
 
 - **Justice**: 
-    Justice has been a theme in philosophy and ethics since at least the time of Plato. It is often interpreted to mean individuals should be treated imparitally. Justice is a pillar of medical ethics. In terms of medical ethics justice implies treating all people fairly and in the spirit of equality. 
+  Justice has been a theme in philosophy and ethics since at least the time of Plato. It is often interpreted to mean individuals should be treated imparitally. Justice is a pillar of medical ethics. In terms of medical ethics justice implies treating all people fairly and in the spirit of equality. 
 
 
 -**Nuremberg Code**:
 
 -**Long termism**:
-    Long termism a philosophical stance popular among techno-solutionists and others in the effective altruism movement. According to this stance we must prioritize future lives, even lives in the distant future as of equal moral weight to those of lives today. The term is new, only coinced in 2017 by philosophers William MacAskill and Toby Ord, but the concept that we should think of future generations has strong roots in multiple cultures. Longg termist ideas tend to differ from traditional convential ideas on helping future generation in the scale of the future they imagine, and the type of threats and goals they ponder i.e. AI apocylism, transhumanism etc.
+  Long termism a philosophical stance popular among techno-solutionists and others in the effective altruism movement. According to this stance we must prioritize future lives, even lives in the distant future as of equal moral weight to those of lives today. The term is new, only coinced in 2017 by philosophers William MacAskill and Toby Ord, but the concept that we should think of future generations has strong roots in multiple cultures. Longg termist ideas tend to differ from traditional convential ideas on helping future generation in the scale of the future they imagine, and the type of threats and goals they ponder i.e. AI apocylism, transhumanism etc.
 
 
 - **Nonmalevolence**:
@@ -75,9 +75,9 @@ title: Glossary
 - **Protected Attribute**:
   In the lingo of machine learning fairness/bias work, this is a human attribute (often an immutable attribute of birth like 'race') that is known to cause discrimination, but already protected by anti-discrimination laws for protected classes. 
 
--**Researcher Positionality**:
+- **Researcher Positionality**:
 
--**Stochastic Parrot**:
+- **Stochastic Parrot**:
 
 -**Synthetic Data**:
   Sythnetic data is data which resembles real data but is made by processes other than simple data augmentation. In some "synthetic" datasets there may be a risk to reconstruct parts of the original data. If the data was about humans e.g. hospital records, this potentially raises privacy issues.
@@ -86,18 +86,6 @@ title: Glossary
   Utilitarianism is an ethical stance first articulated by Jeremy Bentham. According to a utilitarianist perspective we should make the most people the most happy, and the least people unhappy and this can be determined or at least modeled with simple arithematic. Since most actions do not effect all people, we can think about stakeholders. However it should be noted that environmental degredation caused by AI production may mean every human is a stakeholder.
 
 
- -**Virtue ethics**:
+-**Virtue ethics**:
  
-
-
-
-
-
-
-
-
-
-
-
-
 
