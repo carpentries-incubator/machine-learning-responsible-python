@@ -29,21 +29,22 @@ title: Glossary
 - **Data Colonialism**:
   A description of the capture of human related and generated data on individuals  e.g. your social mediat activity by actors such as large corporations for their gain including financial and other types of gain (behavioural coercion) as a new form of colonialism. An interesting note is that citizens of post-colonial countries may be more at risk for this problem due to weaker legal enforcement via a vis big tech or even a lack of any laws on data privacy. [needs links]
 
--**Deontological ethics**:
+- **Deontological ethics**:
   Deonological ethics could be contrasted with consequentialism. In this ethical approach actions must be weighed regardless of conseuqences or in spite of them as would be the case in the story of [(Immanuel) Kant's axe](https://www.open.edu/openlearn/history-the-arts/culture/philosophy/kants-axe).
  
 
--**Doctrine of Double effect**:
+- **Doctrine of Double effect**:
   This doctrine was outlined by Thomas Aquinas. It states that actions may have both an intended and unintended effect, and we are morally responsible for the intended effect so long as the unintended effect was not our goal. The classic example is one of civilian deaths when targetting combatants in a war. This is viewed as acceptable so long as it was not the goal. Can we apply such a doctrine in the case of offensive content stickers for Facebook users in Mynmar? A side effect was that they increased interaction i.e. "maximized engagement" amplifying messages of anti-Rohingya hatred. 
 
--**Epistemology**:
+- **Epistemology**:
   A branch of philosophy concerned with th structure and basis of knowledge. 
 
 
 - **FAT algorithm**: An algorithm with fairness, accountability and transparency. These qualities can be contrasted to those of many algorithms critical to modern life as pointed out by many scholars including Cathy O'Niel Harris in her book 'Weapons of Math Destruction' who posits it is very common for algorithmic tools to be opaque and difficult to contest. 
 
 
--**Helsinki declaration**:
+- **Helsinki declaration**:
+  The Helinksi declaration is essentially a global guideline that is codified locally in countries to help define ethical boandaries around human medical experiments. Respect for the individual, consent and consideration for their well-being. Along with the Nuremberg code it is the backbone of the globally accepted code for ethical aspects of human research.
 
  
 - **Hypernudge**:
@@ -58,18 +59,19 @@ title: Glossary
   Justice has been a theme in philosophy and ethics since at least the time of Plato. It is often interpreted to mean individuals should be treated imparitally. Justice is a pillar of medical ethics. In terms of medical ethics justice implies treating all people fairly and in the spirit of equality. 
 
 
--**Nuremberg Code**:
-
 -**Long termism**:
   Long termism a philosophical stance popular among techno-solutionists and others in the effective altruism movement. According to this stance we must prioritize future lives, even lives in the distant future as of equal moral weight to those of lives today. The term is new, only coinced in 2017 by philosophers William MacAskill and Toby Ord, but the concept that we should think of future generations has strong roots in multiple cultures. Longg termist ideas tend to differ from traditional convential ideas on helping future generation in the scale of the future they imagine, and the type of threats and goals they ponder i.e. AI apocylism, transhumanism etc.
 
 
 - **Nonmalevolence**:
-...is a pillar of medical ethics. 
+Nonmalevolence is a pillar of medical ethics. It implies acting towards patients in a way to 'do no harm' or "primum, non nocere".
+
 
 - **Nuremberg Code**:
+  The Nuremberg code is a globally accepted code about experiments in humans. It was established in the aftermath of world war II, during which horrific and unethical experiments were carried out on prisoners.
 
 - **Privacy**:
+  Privacy implies freedom from the extraction and sharing of sensitive personal information. Most research protocols must be made to consider the privacy of participants.
 
 - **Paternalism**:
   The attitude that some degree of coercion and manipulation of individuals by others with more power and authority is desirable. While paternalism contrasts with autonomy, it is actually implicitly a value in the way many laws are written. Lawmakers decide if you must take certain actions which may only effect yourself such as voluntary euthenasia (in some cases).
@@ -89,6 +91,6 @@ title: Glossary
   Utilitarianism is an ethical stance first articulated by Jeremy Bentham. According to a utilitarianist perspective we should make the most people the most happy, and the least people unhappy and this can be determined or at least modeled with simple arithematic. Since most actions do not effect all people, we can think about stakeholders. However it should be noted that environmental degredation caused by AI production may mean every human is a stakeholder.
 
 
--**Virtue ethics**:
+- **Virtue ethics**:
  
 
