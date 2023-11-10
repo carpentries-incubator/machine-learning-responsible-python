@@ -3,10 +3,10 @@ title: Glossary
 ---
 
 - **AI**:
-  Artificial intelligence (link to glossario definition) (link try)[https://glosario.carpentries.org/en/#artificial_intelligence]a.
+  [Artificial intelligence](https://glosario.carpentries.org/en/#artificial_intelligence) can be used to refer to a series of existing algorithm families e.g. machine learning, reinforcement learning, deep learning and generative algorithms but also poential algorithms that can perform tasks one thought to be unique to human intelligence..
 
 - **Algorithmic bias**:
-(link try)[https://glosario.carpentries.org/en/#algorithmic_bias]a
+[Algorithmic bias](https://glosario.carpentries.org/en/#algorithmic_bias) refers to bias in an algorithm, and is often particularly problematic with algorithms meant to predict human behaviour e.g. criminality or diagnose medical conditions..
 
 - **Augmented Data**:
   Augmented data is data created by manipulation of original raw data in a dataset. In the case of images this might be something like an affine transform or a contrast enhancement, although in this example only the affine transform allows full recovery of original data, both could allow re-identification of original data. All kinds of data could be augmented to produce more training material for AI algorithms. check for Glossario link?
@@ -30,6 +30,7 @@ title: Glossary
   A description of the capture of human related and generated data on individuals  e.g. your social mediat activity by actors such as large corporations for their gain including financial and other types of gain (behavioural coercion) as a new form of colonialism. An interesting note is that citizens of post-colonial countries may be more at risk for this problem due to weaker legal enforcement via a vis big tech or even a lack of any laws on data privacy. [needs links]
 
 -**Deontological ethics**:
+  Deonological ethics could be contrasted with consequentialism. In this ethical approach actions must be weighed regardless of conseuqences or in spite of them as would be the case in the story of [(Immanuel) Kant's axe](https://www.open.edu/openlearn/history-the-arts/culture/philosophy/kants-axe).
  
 
 -**Doctrine of Double effect**:
