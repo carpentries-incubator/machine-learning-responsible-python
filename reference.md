@@ -1,6 +1,6 @@
 ---
 title: Glossary
----
+===============
 
 - **AI**:
   [Artificial intelligence](https://glosario.carpentries.org/en/#artificial_intelligence) can be used to refer to a series of existing algorithm families e.g. machine learning, reinforcement learning, deep learning and generative algorithms but also potential algorithms that can perform tasks one thought to be unique to human intelligence..
@@ -54,7 +54,7 @@ title: Glossary
 - **Justice**: 
   Justice has been a theme in philosophy and ethics since at least the time of Plato. It is often interpreted to mean individuals should be treated impartially. Justice is a pillar of medical ethics. In terms of medical ethics justice implies treating all people fairly and in the spirit of equality. 
 
--**Long termism**:
+- **Long termism**:
   Long termism a philosophical stance popular among techno-solutionists and others in the effective altruism movement. According to this stance we must prioritize future lives, even lives in the distant future as of equal moral weight to those of lives today. The term is new, only coined in 2017 by philosophers William MacAskill and Toby Ord, but the concept that we should think of future generations has strong roots in multiple cultures. Long termism ideas tend to differ from traditional conventional ideas on helping future generation in the scale of the future they imagine, and the type of threats and goals they ponder i.e. AI apocylipsism, transhumanism etc.
 
 - **Nonmalevolence**:
