@@ -1,6 +1,6 @@
 ---
-title: Glossary
-===============
+Glossary
+========
 
 - **AI**:
   [Artificial intelligence](https://glosario.carpentries.org/en/#artificial_intelligence) can be used to refer to a series of existing algorithm families e.g. machine learning, reinforcement learning, deep learning and generative algorithms but also potential algorithms that can perform tasks one thought to be unique to human intelligence..
