@@ -3,7 +3,7 @@ title: Glossary
 ---
 
 - **AI**:
-  Artificial intelligence (link to glossario definition).
+  Artificial intelligence (link to glossario definition) (link try)[https://glosario.carpentries.org/en/#artificial_intelligence]a.
 
 - **Algorithmic bias**:
 (link try)[https://glosario.carpentries.org/en/#algorithmic_bias]a
@@ -18,11 +18,13 @@ title: Glossary
  The idea that individuals should be independant in making choices and controling their future. Autonomy is a pillar of medical ethics. 
 
 - **Beneficence**:
- ...pillar of medicAL ethics
+ Beneficence is a pillar of medical ethics which implies acting for the good or benefit of individual patients.
 
 - **The Chinese room argument**:
+  The [chinese room argument](https://plato.stanford.edu/entries/chinese-room/) is a well know philisophical argument about a computer program by John Searl interpreted by many to imply that the Turing test is inadequte to diagnose true understanding and intelligence. 
 
 - **Conseuquentialism**:
+  Consequentialism is the ethical stance that we must weight the consequences of our actions to understand their morality. Taken to a logical end this would mean actions commonly understood as morally deficient e.g. murder, might be the ethical best choices depending upon the circumstance.
   
 - **Data Colonialism**:
   A description of the capture of human related and generated data on individuals  e.g. your social mediat activity by actors such as large corporations for their gain including financial and other types of gain (behavioural coercion) as a new form of colonialism. An interesting note is that citizens of post-colonial countries may be more at risk for this problem due to weaker legal enforcement via a vis big tech or even a lack of any laws on data privacy. [needs links]
@@ -64,11 +66,11 @@ title: Glossary
 - **Nonmalevolence**:
 ...is a pillar of medical ethics. 
 
--**Nuremberg Code**:
+- **Nuremberg Code**:
 
--**Privacy**:
+- **Privacy**:
 
--**Paternalism**:
+- **Paternalism**:
   The attitude that some degree of coercion and manipulation of individuals by others with more power and authority is desirable. While paternalism contrasts with autonomy, it is actually implicitly a value in the way many laws are written. Lawmakers decide if you must take certain actions which may only effect yourself such as voluntary euthenasia (in some cases).
 
 
@@ -79,10 +81,10 @@ title: Glossary
 
 - **Stochastic Parrot**:
 
--**Synthetic Data**:
+- **Synthetic Data**:
   Sythnetic data is data which resembles real data but is made by processes other than simple data augmentation. In some "synthetic" datasets there may be a risk to reconstruct parts of the original data. If the data was about humans e.g. hospital records, this potentially raises privacy issues.
 
--**Utilitarianism**:
+- **Utilitarianism**:
   Utilitarianism is an ethical stance first articulated by Jeremy Bentham. According to a utilitarianist perspective we should make the most people the most happy, and the least people unhappy and this can be determined or at least modeled with simple arithematic. Since most actions do not effect all people, we can think about stakeholders. However it should be noted that environmental degredation caused by AI production may mean every human is a stakeholder.
 
 
